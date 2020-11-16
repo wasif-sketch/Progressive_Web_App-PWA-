@@ -150,17 +150,21 @@ body{
 
 //About Mr Mahir
 .about-mrmahir-head{
-    background-color: lightgray;
+
     h2{
         text-align: center;
         text-transform: uppercase;
         font-weight: bold;
         padding-top: 17px;
+        margin-bottom: -170px;
     }
 
     .inner-detail-mrmahir{
+        background-color: lightgray;
         p{
             text-align: center;
+            padding: 224px 12px;
+            height: 50px;
         }
     }
 
@@ -171,6 +175,8 @@ body{
             border-radius: 10px;
             display: block;
             margin: 0 auto;
+            position: relative;
+            bottom: -196px;
         }
     }
 
