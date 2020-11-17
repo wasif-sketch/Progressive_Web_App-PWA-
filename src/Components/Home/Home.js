@@ -1,9 +1,8 @@
 import React from "react";
 import { BsSearch } from "react-icons/bs";
-import "./home.scss";
+import "./Home.scss";
 import Webicon from "../../Assets/images/webicon.png";
-import OurServices from "./OurServices";
-
+import OurServices from "../Home/OurServices/OurServices"
 
 function Home(){
     return(
@@ -12,7 +11,7 @@ function Home(){
             <div className="webicon">
                 <img className="img-fluid site-logo" alt="mr mahir icon" src={Webicon} />
                 
-            <div className="right-searching">
+            <div className="right-searching mr-3 mt-3">
                 <BsSearch />
             </div>
             </div>

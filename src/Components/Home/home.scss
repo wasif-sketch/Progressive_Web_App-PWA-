@@ -6,9 +6,6 @@ body{
 
 
 
-
-
-
 //background banner section
 .background-banner{
     background-image: url("../../Assets/images/dummy.png");
@@ -28,157 +25,22 @@ body{
 
         
         .right-searching{
-            margin: 14px 15px 0 0;
+            // margin: 14px 15px 0 0;
             float: right;
             padding: 20px 20px;
             color: #ffffff;
             background-color: #c51017;
-            border-radius: 10px;
+            border-radius: 5px;
             height: 12px;
             width: 3%;
 
             svg{
                 font-size: 25px;
-                margin: -6px -7px;
+                position: absolute;
+                top: 25px;
+                right: 23px;
             }
         }
     }
 }
 // end
-
-
-// our services section
-.service-head{
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.services-showcase{
-    box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
-    0 2px 2px rgba(0,0,0,0.11), 
-    0 4px 4px rgba(0,0,0,0.11), 
-    0 6px 8px rgba(0,0,0,0.11),
-    0 8px 16px rgba(0,0,0,0.11);
-    padding: 14px 0;
-    border-radius: 5px;
-
-    div{
-        background: white !important;
-        outline: none !important;
-    }
-
-    
-    .service-grid{
-        display: inline-block;
-        text-align: center;
-        width: 25%;
-    }
-
-    .service-grid-bottom{
-        display: inline-block;
-        text-align: center;
-        width: 25%;
-        margin: 0 0 0 10px;
-    }
-
-    .service-grid-bottom:nth-child(1){
-        margin: 0 0 0 20px;
-    }
-
-        
-    .cleaner{
-        width: 40%;
-        margin-bottom: -15px;
-    }
-    .carwash{
-        width: 75%;
-        margin-bottom: -15px;
-    }
-    .plumber{
-        width: 45%;
-        margin-bottom: -15px;
-    }
-    .electric{
-        width: 35%;
-        margin-bottom: -15px;
-    }
-    .carpenter{
-        width: 50%;
-        margin-bottom: -15px;
-    }
-    .handyman{
-        width: 40%;
-        margin-bottom: -15px;
-    }
-    .acservice{
-        width: 60%;
-        margin-bottom: -15px;
-    }
-}
-//end
-
-
-
-//Suggested services section
-.suggested-service{
-    h2{
-        text-align: center;
-        text-transform: uppercase;
-        font-weight: bold;
-        padding-top: 17px;
-    }
-  
-.services-we-provide{
-    .service-suggested-grid{
-        display: inline-block;
-        text-align: center;
-        width: 45%;
-        margin-left: 11px;
-
-        img{
-            width: 100%;
-            height: 96px;
-            border-radius: 5px;
-            margin-bottom: -15px;
-        }
-    }
-}
-}
-//end
-
-
-//About Mr Mahir
-.about-mrmahir-head{
-
-    h2{
-        text-align: center;
-        text-transform: uppercase;
-        font-weight: bold;
-        padding-top: 17px;
-        margin-bottom: -170px;
-    }
-
-    .inner-detail-mrmahir{
-        background-color: lightgray;
-        p{
-            text-align: center;
-            padding: 224px 12px;
-            height: 50px;
-        }
-    }
-
-    .about-thumbnail{
-        img{
-            width: 80%;
-            height: 300px;
-            border-radius: 10px;
-            display: block;
-            margin: 0 auto;
-            position: relative;
-            bottom: -196px;
-        }
-    }
-
-
-}

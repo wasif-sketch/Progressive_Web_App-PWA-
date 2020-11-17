@@ -1,15 +1,17 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-grid-system';
+import { Container, Row } from 'react-bootstrap'
 
-import About from "../../Assets/images/about.jpg";
+import TestimonialSlider from "../TestimonialSlider/TestimonialSlider"
+import './AboutMrMahir.scss'
+import About from "../../../Assets/images/about.jpg";
 
 function AboutMrMahir() {
     return (
         <React.Fragment>
             <Container fluid>
                 <Row>
-            <div className="about-mrmahir-head">
-                <h2>About Mr. Mahir</h2>
+            <div className="about-mrmahir-head pt-5">
+                <h3 className="text-center pb-3">About Mr. Mahir</h3>
 
                 <div className="about-thumbnail">
                     <img src={About} />
@@ -22,6 +24,8 @@ function AboutMrMahir() {
             </div>
             </Row>
             </Container>
+
+            <TestimonialSlider />
         </React.Fragment>
     )
 }

@@ -1,0 +1,23 @@
+//Testimonial slider section
+.testimonial-head{
+    h3{
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .testimonial-inner{
+        height: 300px;
+
+        .testimonial-icons{
+            width: 20%;
+        }
+    }
+
+    .carousel-indicators{
+        display: none;
+    }
+
+    .testimonial-top{
+        margin-bottom: 40px;
+    }
+}
